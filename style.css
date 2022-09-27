@@ -63,6 +63,9 @@ footer {
 }
 
 @media only screen and ( max-width: 572px ) {
+    h1 {
+        font-size: 30px;
+    }
     .paragraph {
 font-size: 15px;
     }
