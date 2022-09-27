@@ -63,6 +63,10 @@ footer {
 }
 
 @media only screen and ( max-width: 572px ) {
+    .paragraph {
+font-size: 15px;
+    }
+
     .circles {
         gap: 20px;
     } 
