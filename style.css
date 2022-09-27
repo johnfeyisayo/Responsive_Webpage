@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: rgb(49, 47, 47);
+    height: 50%;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: -2px;
+    background-color: #ffe0cc;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    font-size: 40px;
+} 
+.paragraph {
+    margin-top: 70px;
+    display: block;
+    font-size: 20px;
+}
+
+.circles {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   gap: 50px;
+}
+
+.circle {
+    border-radius: 80%;
+    height: 200px;
+    width: 200px;
+}
+
+#brown {
+    background-color: #ffa366;
+}
+
+#green {
+    background-color: #4d1f00;
+}
+
+#blue {
+    background-color: #993d00;
+}
+
+footer {
+    background-color: #ffe0cc;
+    margin-top: 539px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#copyright {
+    text-align: center;
+}
+
+@media only screen and ( max-width: 572px ) {
+    .circles {
+        gap: 20px;
+    } 
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and ( max-width: 414px ) {
+    .circles {
+        display: flex;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #copyright {
+        margin-bottom: 0px;
+    }
+}
+    @media only screen and ( max-width: 273px) {
+        .circles {
+    margin-right: 50px;  
+    }
+}
