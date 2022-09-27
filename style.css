@@ -20,6 +20,7 @@ h1 {
 } 
 .paragraph {
     margin-top: 70px;
+    padding: 20px;
     display: block;
     font-size: 20px;
 }
@@ -88,8 +89,16 @@ footer {
         margin-bottom: 0px;
     }
 }
-    @media only screen and ( max-width: 273px) {
+
+@media only screen and ( max-width: 403px ){
+    .paragraph {
+        margin-top: 110px;
+}
+}
+
+@media only screen and ( max-width: 273px) {
         .circles {
     margin-right: 50px;  
     }
 }
+
